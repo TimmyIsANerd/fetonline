@@ -207,7 +207,7 @@ body{
 }
 .carousel img{
     filter:brightness(0.3);
-    width:100% !important;height:50% imp !important;
+    width:100% !important;height:50% !important;
 }
 .carousel h1{
     font-weight: 1.625rem;
@@ -227,6 +227,10 @@ body{
     font-weight: bold;
 }
 .features p{
-    font-family: var(--font03);
+    font-family: Arial;
     font-weight:300;
 }
+/* .line{
+    text-align:center;
+    width:25%;
+} */
