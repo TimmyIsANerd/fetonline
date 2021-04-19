@@ -263,6 +263,10 @@ body{
 .practise h3{
     font-family: var(--font01);
 }
+.practise h6{
+    font-weight: bold;
+    font-size:15px;    text-transform: uppercase;
+}
 /* Footer */
 footer{
     display: block;
