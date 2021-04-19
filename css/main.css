@@ -119,6 +119,8 @@ body{
     background-color: var(--secondary-color02) !important;
     color: var(--black) !important;
     border-radius: 30px !important;
+    font-size:14px;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 10px 40px;
 }
@@ -234,6 +236,9 @@ body{
     text-align:center;
     width:25%;
 } */
+.learn-how-cta h3{
+    font-family: var(--font01);
+}
 /* Footer */
 footer{
     display: block;
@@ -246,7 +251,7 @@ footer a,footer a:hover{
     text-decoration: none;
 }
 .contact-info{
-    display: flex;
+    display:flex;
     flex-direction: column;
     justify-content: center;
 }
