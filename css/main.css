@@ -89,7 +89,8 @@
     --font04: 'Roboto Condensed Italic'
     --primary-color : #ff6f21;
     --secondary-color01 : #2160A6;
-    --secondary-color02 :  rgba(255, 111, 33, 0.3); /*Set filter property : opacity(0.3)*/
+    --secondary-color02 :  rgba(255, 111, 33, 0.3);
+    --secondary-color03 :  rgba(255, 111, 33, 0.1);
     --text-color:#333333;
     --gray:#979797;
     --darkgray:#565656;
@@ -98,6 +99,13 @@
     --white:#fff;
     --black:#000;
 }
+/* Body */
+body{
+    color:var(--text-color);
+    font-family: "Roboto";
+    font-size:16px;
+}
+
 
 /* Buttons */
 .btn.subscribe{
@@ -206,6 +214,9 @@
     font-family: var(--font01);
 }
 /* Features */
+.features{
+    background-color: var(--secondary-color03);
+}
 .features h3{
     font-family: var(--font01);
 }
@@ -214,4 +225,8 @@
     font-style: italic;
     font-size:18px;
     font-weight: bold;
+}
+.features p{
+    font-family: var(--font03);
+    font-weight:300;
 }
