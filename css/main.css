@@ -234,3 +234,23 @@ body{
     text-align:center;
     width:25%;
 } */
+/* Footer */
+footer{
+    display: block;
+    bottom:0;
+}
+footer a,footer a:hover{
+    color:var(--text-color);
+    font-size:18px;
+    font-weight: 200;
+    text-decoration: none;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-text{
+    font-size:14px;
+    color:var(--darkgray) !important;
+}
