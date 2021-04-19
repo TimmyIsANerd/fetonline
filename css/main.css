@@ -81,12 +81,28 @@
 	font-weight: 700;
 	src: local('Roboto Condensed Bold Italic'), local('RobotoCondensed-BoldItalic'), url("../fonts/Roboto_Condensed/RobotoCondensed-BoldItalic.ttf") format('truetype');
 }
+/* Roboto Thin */
+@font-face {
+    font-family: "Roboto Thin";
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+/* Roboto Thin Italic */
+@font-face {
+    font-family: "Roboto Thin Italic";
+    font-weight: 300;
+    font-style: normal;
+    src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+}
 /* Declared Variables */
 :root{
     --font01: 'Aladin';
     --font02: 'Roboto';
     --font03: 'Roboto Condensed';
-    --font04: 'Roboto Condensed Italic'
+    --font04: 'Roboto Condensed Italic';
+    --font05: 'Roboto Thin';
+    --font06: 'Roboto Thin Italic'
     --primary-color : #ff6f21;
     --secondary-color01 : #2160A6;
     --secondary-color02 :  rgba(255, 111, 33, 0.3);
@@ -102,7 +118,7 @@
 /* Body */
 body{
     color:var(--text-color);
-    font-family: "Roboto";
+    font-family: var(--font05);
     font-size:16px;
 }
 
@@ -239,6 +255,9 @@ body{
 .learn-how-cta h3{
     font-family: var(--font01);
 }
+
+
+
 /* Footer */
 footer{
     display: block;
