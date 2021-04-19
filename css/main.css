@@ -255,9 +255,14 @@ body{
 .learn-how-cta h3{
     font-family: var(--font01);
 }
-
-
-
+/* Practise Area */
+.practise,.practise a{
+    background-color: var(--secondary-color01);
+    color:var(--white);
+}
+.practise h3{
+    font-family: var(--font01);
+}
 /* Footer */
 footer{
     display: block;
