@@ -148,7 +148,14 @@ body{
     text-transform: uppercase;
     padding: 10px 40px;
 }
-
+.btn.cta03{
+    background-color: var(--gray) !important;
+    font-size: 13px;
+    color: var(--black) !important;
+    border-radius: 10px !important;
+    text-transform: uppercase;
+    padding: 10px 40px;
+}
 /* Navbar */
 .topnav{
     display:flex;
@@ -256,7 +263,11 @@ body{
     font-family: var(--font01);
 }
 /* Practise Area */
-.practise,.practise a{
+.practise{
+    margin:5rem 0;
+    padding:2.5rem 0;
+}
+.practise,.practise a,.practise a:hover{
     background-color: var(--secondary-color01);
     color:var(--white);
 }
@@ -264,8 +275,19 @@ body{
     font-family: var(--font01);
 }
 .practise h6{
-    font-weight: bold;
+    font-weight: 500;
     font-size:15px;    text-transform: uppercase;
+}
+.communitypng{
+    position: relative;
+}
+.communitypng img{
+    width:45%;
+    height:auto;
+}
+#img01{
+    position: absolute;
+    
 }
 /* Footer */
 footer{
