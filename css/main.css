@@ -289,6 +289,17 @@ body{
     position: absolute;
     
 }
+/* Ready to Start */
+.readystart{
+    background-color: var(--secondary-color03);
+    padding:3rem 0;
+}
+.readystart h3{
+    font-family:'Aladin';
+}
+.readystart a,.readystart a:hover{
+    color:var(--text-color);
+}
 /* Footer */
 footer{
     display: block;
