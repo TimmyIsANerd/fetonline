@@ -287,7 +287,6 @@ body{
 }
 #img01{
     position: absolute;
-    
 }
 /* Ready to Start */
 .readystart{
@@ -297,8 +296,14 @@ body{
 .readystart h3{
     font-family:'Aladin';
 }
+.readystart h5{
+    font-family: var(--font04);
+}
 .readystart a,.readystart a:hover{
     color:var(--text-color);
+}
+.steps{
+    list-style-type: none;
 }
 /* Footer */
 footer{
