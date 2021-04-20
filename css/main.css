@@ -108,13 +108,20 @@
     font-style: italic;
     src: url('../fonts/Roboto/Roboto-MediumItalic.ttf');
 }
+/* Roboto Light */
+@font-face {
+    font-family: "Roboto-Light";
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/Roboto/Roboto-Light.ttf');
+}
 /* Declared Variables */
 :root{
     --font01: 'Aladin';
     --font02: 'Roboto';
     --font03: 'Roboto Condensed';
     --font04: 'Roboto Condensed Italic';
-    --font05: 'Roboto Thin';
+    --font05: 'Roboto-Light';
     --font06: 'Roboto Thin Italic';
     --font07: 'Roboto Medium';
     --primary-color : #ff6f21;
