@@ -93,7 +93,20 @@
     font-family: "Roboto Thin Italic";
     font-weight: 300;
     font-style: normal;
-    src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+    src: url('../fonts/Roboto/Roboto-ThinItalic.ttf');
+}
+/* Roboto Medium */
+@font-face {
+    font-family: "Roboto Medium";
+    font-weight: 300;
+    font-style: normal;
+    src: url('../fonts/Roboto/Roboto-Medium.ttf');
+}
+@font-face {
+    font-family: "Roboto Medium Italic";
+    font-weight: 300;
+    font-style: italic;
+    src: url('../fonts/Roboto/Roboto-MediumItalic.ttf');
 }
 /* Declared Variables */
 :root{
@@ -102,7 +115,8 @@
     --font03: 'Roboto Condensed';
     --font04: 'Roboto Condensed Italic';
     --font05: 'Roboto Thin';
-    --font06: 'Roboto Thin Italic'
+    --font06: 'Roboto Thin Italic';
+    --font07: 'Roboto Medium';
     --primary-color : #ff6f21;
     --secondary-color01 : #2160A6;
     --secondary-color02 :  rgba(255, 111, 33, 0.3);
@@ -124,6 +138,9 @@ body{
 
 
 /* Buttons */
+.btn{
+    font-family:var(--font07)!important;
+}
 .btn.subscribe{
     background-color: var(--primary-color) !important;
     color: var(--white) !important;
@@ -315,9 +332,15 @@ body{
 /* FAQ */
 .faq{
     margin:5rem 0;
+    font-family: var(--font05);
 }
 .faq h3{
     font-family: var(--font01);
+}
+.faq h5{
+    font-family: var(--font05);
+    font-weight: 400;
+    cursor: pointer;
 }
 .faq .btn-link,.faq .btn-link:hover{
     color:var(--text-color);
