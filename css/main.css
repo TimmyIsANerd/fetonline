@@ -312,6 +312,17 @@ body{
     box-shadow: 0px 0px 5px 1px var(--secondary-color03);
     border-radius: 15px;
 }
+/* FAQ */
+.faq{
+    margin:5rem 0;
+}
+.faq h3{
+    font-family: var(--font01);
+}
+.faq .btn-link,.faq .btn-link:hover{
+    color:var(--text-color);
+    text-decoration: none !important;
+}
 /* Footer */
 footer{
     display: block;
