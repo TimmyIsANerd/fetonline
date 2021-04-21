@@ -282,10 +282,10 @@ body{
 .youtube_frame{
     border-radius: 15px;
 }
-/* .line{
-    text-align:center;
-    width:25%;
-} */
+.line{
+    margin:1.3em auto;
+    width:100px;
+}
 .learn-how-cta h3{
     font-family: var(--font01);
 }
