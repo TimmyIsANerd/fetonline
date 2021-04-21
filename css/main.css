@@ -303,19 +303,25 @@ body{
     font-size:15px;    text-transform: uppercase;
 }
 .communitypng{
-    position: relative;
+    position: absolute;
 }
 .communitypng img{
-    width:45%;
+    width:50%;
     height:auto;
 }
 #img01{
-    position: absolute;
+    width:20%;
+    left:0;
+    top:50%;
+}
+#img02{
+    width:20%;
+    top:40% !important;
 }
 /* Ready to Start */
 .readystart{
     background-color: var(--secondary-color03);
-    padding:3rem 0;
+    padding:2.5rem 0;
 }
 .readystart h3{
     font-family:'Aladin';
@@ -331,10 +337,17 @@ body{
 }
 .readycard{
     margin-top: 15em;
-    width: 60%;
+    width:350px;
+    height:255px;
     border-width:0 !important;
     box-shadow: 0px 0px 5px 1px var(--secondary-color03);
     border-radius: 15px;
+}
+@media screen and (max-width:600px){
+    .readycard{
+        margin: 0 auto;
+        transform:scale(0.8);
+    }
 }
 /* FAQ */
 .faq{
@@ -366,6 +379,10 @@ body{
 .articles{
     background-color: var(--secondary-color03);
     padding: auto;
+}
+.articles a, .articles a:hover{
+    text-decoration:none;
+    color:var(--text-color);
 }
 .articles .card{
     width:60%;
