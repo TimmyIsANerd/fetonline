@@ -166,7 +166,7 @@ body{
 }
 .btn.cta02{
     background-color: var(--secondary-color01) !important;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--white) !important;
     border-radius: 30px !important;
     text-transform: uppercase;
@@ -265,10 +265,6 @@ body{
 }
 .carousel p{
     font-size:1.3rem;
-}
-@media screen and (max-width:800px){
-    .carousel h1{
-    }
 }
 /* Features */
 .features{
@@ -378,6 +374,11 @@ body{
     color:var(--text-color);
     text-decoration: none !important;
 }
+.faq .fa{
+    color:var(--gray);
+    font-size:30px;
+    float:right;
+}
 /* Our Articles */
 @media screen and (max-width:600px){
     .articles .col-md-4{
@@ -433,4 +434,21 @@ footer a,footer a:hover{
 .footer-text{
     font-size:14px;
     color:var(--darkgray) !important;
+}
+/* Responsivity Rules */
+@media screen and (max-width:800px){
+    /* Header */
+    .carousel h1{
+        font-size: 1.5rem;
+    }
+    .carousel p{
+        font-size:0.65rem;
+    }
+    .btn.cta02{
+        font-size:12px;
+    }
+    /* Navbar */
+    .nav-links a{
+        font-size:12px;
+    }
 }
