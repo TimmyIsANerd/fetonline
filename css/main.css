@@ -166,7 +166,7 @@ body{
 }
 .btn.cta02{
     background-color: var(--secondary-color01) !important;
-    font-size: 15px;
+    font-size: 20px;
     color: var(--white) !important;
     border-radius: 30px !important;
     text-transform: uppercase;
@@ -259,8 +259,16 @@ body{
     width:100% !important;height:50% !important;
 }
 .carousel h1{
-    font-weight: 1.625rem;
+    font-size: 3rem;
+    text-transform: uppercase;
     font-family: var(--font01);
+}
+.carousel p{
+    font-size:1.3rem;
+}
+@media screen and (max-width:800px){
+    .carousel h1{
+    }
 }
 /* Features */
 .features{
