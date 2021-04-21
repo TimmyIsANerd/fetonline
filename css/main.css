@@ -392,6 +392,12 @@ body{
     text-decoration:none;
     color:var(--text-color);
 }
+p.date{
+    font-weight: 300 !important;
+}
+p.headline{
+    font-weight: bold !important;
+}
 .articles .card{
     width:60%;
     height:auto;
