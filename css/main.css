@@ -358,6 +358,11 @@ body{
     text-decoration: none !important;
 }
 /* Our Articles */
+@media screen and (max-width:600px){
+    .articles .col-md-4{
+        margin:1rem 0;
+    }
+}
 .articles{
     background-color: var(--secondary-color03);
     padding: auto;
