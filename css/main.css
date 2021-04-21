@@ -38,11 +38,7 @@
 
 @font-face {
     font-family: "Roboto Bold";
-    src: url('../fonts/Roboto-Bold.eot');
-    src: url('../fonts/Roboto-Bold.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/Roboto-Bold.woff2') format('woff2'),
-         url('../fonts/Roboto-Bold.woff') format('woff'),
-         url('../fonts/Roboto-Bold.ttf') format('truetype');
+    src: url('../fonts/Roboto-Bold.ttf')format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -59,13 +55,13 @@
 	font-family: "Roboto Condensed";
 	font-style: normal;
 	font-weight: 400;
-	src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("RobotoCondensed-Regular.ttf") format('truetype');
+	src: local('Roboto Condensed Regular'), local('RobotoCondensed-Regular'), url("../fonts/Roboto_Condensed/RobotoCondensed-Regular.ttf") format('truetype');
 }
 @font-face {
 	font-family: "Roboto Condensed";
 	font-style: italic;
 	font-weight: 400;
-	src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("RobotoCondensed-Italic.ttf") format('truetype');
+	src: local('Roboto Condensed Italic'), local('RobotoCondensed-Italic'), url("../fonts/Roboto_Condensed/RobotoCondensed-Italic.ttf") format('truetype');
 }
 
 /* Bold */
@@ -282,6 +278,9 @@ body{
 .features p{
     font-family: Arial;
     font-weight:300;
+}
+.youtube_frame{
+    border-radius: 15px;
 }
 /* .line{
     text-align:center;
