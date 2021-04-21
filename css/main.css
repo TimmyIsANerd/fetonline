@@ -409,7 +409,7 @@ p.headline{
     transition: 0.7s;
 }
 .articles .card:hover{
-    box-shadow: 0px 0px 5px 5px var(--secondary-color03);
+    box-shadow: 0px 0px 5px 5px var(--light-gray);
 }
 .card-header{
     padding:0 !important;
