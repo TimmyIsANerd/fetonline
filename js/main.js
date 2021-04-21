@@ -25,3 +25,7 @@ ham.addEventListener('click',()=>{
         bar.style.display = 'none';
     }
 });
+var date = document.querySelector('#date');
+var year = new Date();
+console.log(year)
+date.textContent = `${year.getFullYear()}`;
