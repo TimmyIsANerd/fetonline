@@ -268,11 +268,12 @@ body{
 }
 .features h3{
     font-family: var(--font01);
+    font-size:2.3rem;
 }
 .features h5{
     font-family: var(--font04);
     font-style: italic;
-    font-size:18px;
+    font-size:23px;
     font-weight: bold;
 }
 .features p{
@@ -424,6 +425,15 @@ p.headline{
 footer{
     display: block;
     bottom:0;
+}
+.social a,.social a:hover{
+    margin:0 1.3rem;
+    color:var(--text-color);
+    background-color: var(--light-gray);
+    border-radius: 50%;
+    width: 100px;height: 100px;
+    padding: 15px 20px;
+    font-size: 25px;
 }
 footer a,footer a:hover{
     color:var(--text-color);
