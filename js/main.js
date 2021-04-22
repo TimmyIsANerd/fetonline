@@ -12,7 +12,7 @@ const toggleHam = () =>{
         nav.className = "topnav";
     }
 }
-
+// Event Listener Navbar
 ham.addEventListener('click',()=>{
     console.log('Click Event Occured');
     if(icon.className === 'fa fa-bars'){
@@ -25,6 +25,7 @@ ham.addEventListener('click',()=>{
         bar.style.display = 'none';
     }
 });
+// Footer date
 var date = document.querySelector('#date');
 var year = new Date();
 console.log(year)
