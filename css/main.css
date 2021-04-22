@@ -421,6 +421,22 @@ p.headline{
 .date{
     font-weight: bold;
 }
+/* Newsletter */
+.newsletter{
+    background-image: url('../images/eiffle-tower.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:var(--white);
+    padding: 3em 0;
+}
+.newsletter-body *{
+    margin:0;
+    font-family: var(--font02);
+}
+.newsletter-body h3{
+    font-family: var(--font01);
+}
 /* Footer */
 footer{
     display: block;
