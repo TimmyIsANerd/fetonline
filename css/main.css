@@ -535,3 +535,10 @@ footer a:hover {
     padding: 5px 20px;
   }
 }
+
+/* Testimonial Section */
+#testimonial h5 {
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  font-family: var(--font01);
+}
