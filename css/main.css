@@ -513,7 +513,7 @@ footer a:hover {
 @media screen and (max-width: 800px) {
   /* Header */
   .carousel-caption {
-    top: 0%;
+    top: 40%;
   }
   .carousel h1 {
     font-size: 1.25rem;
@@ -537,8 +537,38 @@ footer a:hover {
 }
 
 /* Testimonial Section */
+#testimonial {
+  height: 350px;
+  cursor: pointer;
+  padding: 1em 0;
+}
 #testimonial h5 {
   font-size: 1.8rem;
   text-transform: uppercase;
   font-family: var(--font01);
+}
+#testimonial p {
+  font-weight: 300;
+  font-size: 16px;
+}
+#testimonial .name {
+  font-weight: bold;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+}
+.carousel-indicators {
+  filter: invert(100%);
+}
+@media screen and (max-width: 400px) {
+  .review,
+  .name,
+  .work {
+    font-size: 85% !important;
+  }
+  .testimony {
+    margin: 0 15px;
+  }
 }
