@@ -418,6 +418,24 @@ body {
   font-size: 30px;
   float: right;
 }
+.accordion-item{
+  border:none !important;
+  margin-bottom:none;
+}
+.accordion-button{
+  color:#000 !important;
+  background-color: #fff !important;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed){
+  color:#000 !important;
+  background-color: #fff !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus{
+  background-color: #fff !important;
+  border-color:none !important;
+}
 /* Our Articles */
 @media screen and (max-width: 600px) {
   .articles .col-md-4 {
