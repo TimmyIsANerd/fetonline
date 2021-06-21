@@ -460,11 +460,12 @@ p.headline {
 .articles .card {
   width: 60%;
   height: auto;
+  min-height: 300px;;
   margin: 0 auto;
   cursor: pointer;
-  border-radius: 0;
+  border-radius: 3;
   border-width: 0;
-  box-shadow: 0px 0px 5px 1px var(--secondary-color03);
+  box-shadow: 0px 1px 30px -5px #333;
   transition: 0.7s;
 }
 .articles .card:hover {
@@ -472,6 +473,10 @@ p.headline {
 }
 .card-header {
   padding: 0 !important;
+}
+.card-header img{
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
 }
 .articles h3 {
   font-family: var(--font01);
