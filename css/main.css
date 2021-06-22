@@ -319,7 +319,8 @@ body {
 /* Practise Area */
 .practise {
   margin: 5rem 0;
-  padding: 2.5rem 0;
+  padding-top: 2.5rem;
+  padding-bottom:0;
 }
 .practise,
 .practise a,
@@ -336,20 +337,13 @@ body {
   text-transform: uppercase;
 }
 .communitypng {
-  position: absolute;
+  display: block;
 }
-.communitypng img {
-  width: 50%;
-  height: auto;
-}
-#img01 {
-  width: 20%;
-  left: 0;
-  top: 50%;
-}
-#img02 {
-  width: 20%;
-  top: 40% !important;
+@media screen and (max-width: 600px) {
+  .practise h6{
+    margin-top:1rem;
+    font-size:120%;
+  }
 }
 /* Ready to Start */
 .readystart {
@@ -420,7 +414,6 @@ body {
   background-color: #5656560f;
   margin:3px;
 }
-
 .readycard {
   margin-top: 20em;
   padding: 1em 0;
