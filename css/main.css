@@ -637,7 +637,7 @@ footer a:hover {
 .carousel-control-next-icon {
   filter: invert(100%);
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
   .review,
   .name,
   .work {
@@ -645,5 +645,8 @@ footer a:hover {
   }
   .testimony {
     margin: 0 15px;
+  }
+  .carousel-caption{
+    top:10%;
   }
 }
