@@ -202,6 +202,16 @@ body {
   background-color: var(--white);
   overflow: hidden;
 }
+.bar-visible{
+  transition:0.5s;
+  display:block;
+  opacity:1;
+}
+.bar-invisible{
+  transition:0.5s;
+  opacity:0;
+  display:none;
+}
 .nav-links a {
   color: var(--text-color) !important;
   text-decoration: none;
@@ -505,7 +515,7 @@ p.headline {
 .articles .card {
   width: 60%;
   height: auto;
-  min-height: 300px;;
+  min-height: 300px;
   margin: 0 auto;
   cursor: pointer;
   border-radius: 3;
@@ -583,19 +593,35 @@ footer a:hover {
   color: var(--darkgray) !important;
 }
 /* Responsivity Rules */
+@media screen and (min-width:720px){
+  /* Article Card */
+  .articles .card {
+    width: 60%;
+    height: auto;
+    min-height: 100px;
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 3;
+    border-width: 0;
+    transition: 0.7s;
+  }
+  .card-body p{
+    font-size:0.85rem;
+  }
+}
 @media screen and (max-width: 800px) {
   /* Header */
   .carousel-caption {
-    top: 40%;
+    top: 30%;
   }
   .carousel h1 {
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .carousel p {
-    font-size: 0.6rem;
+    font-size: 1rem;
   }
   .btn.cta02 {
-    font-size: 9px;
+    font-size: 12px;
     padding: 5px 20px;
   }
   /* Navbar */
@@ -608,12 +634,56 @@ footer a:hover {
     padding: 5px 20px;
   }
 }
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 375px) {
+  /* Header */
   .carousel-caption {
-    top: 5%;
+    top: 0%;
+  }
+  .carousel h1 {
+    font-size: 1.4rem;
+  }
+  .carousel p {
+    font-size: 0.6rem;
+  }
+  .btn.cta02 {
+    font-size: 7px;
+    padding: 5px 20px;
+  }
+  /* Navbar */
+  .nav-links a {
+    font-size: 12px;
+  }
+  /* Buttons */
+  .btn.subscribe {
+    font-size: 9px;
+    padding: 5px 20px;
   }
 }
-
+@media screen and (max-width:414px) {
+    /* Header */
+    .carousel-caption {
+      top: 0%;
+    }
+    .carousel h1 {
+      font-size: 1.4rem;
+    }
+    .carousel p {
+      font-size: 0.6rem;
+    }
+    .btn.cta02 {
+      font-size: 7px;
+      padding: 5px 20px;
+    }
+    /* Navbar */
+    .nav-links a {
+      font-size: 12px;
+    }
+    /* Buttons */
+    .btn.subscribe {
+      font-size: 9px;
+      padding: 5px 20px;
+    }
+}
 /* Testimonial Section */
 #testimonial {
   height: 350px;

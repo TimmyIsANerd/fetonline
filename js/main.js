@@ -19,6 +19,7 @@ ham.addEventListener('click',()=>{
         icon.classList.remove('fa-bars');
         icon.classList.add('fa-times');
         bar.style.display = 'block';
+        bar.style.transition = "0.5s"
     } else {
         icon.classList.remove('fa-times')
         icon.classList.add('fa-bars');
